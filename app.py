@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
-from flask_cors import CORS
-CORS(app)  # Enable CORS for all routes
+# from flask_cors import CORS
+# CORS(app)  # Enable CORS for all routes
 
 
 app = Flask(__name__)
